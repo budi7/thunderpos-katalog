@@ -5,6 +5,6 @@ katalog
 
 -. Product identification/details
 
--. Stock level/Inventory
+-. Current Stock
 
--. Price management
+-. Current Price 
