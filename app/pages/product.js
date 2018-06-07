@@ -10,17 +10,13 @@ module.exports = {
     <Page class="page">
       <ActionBar class="action-bar" title="Produk">
         <ActionItem tap="onSearch"
-          ios.systemIcon="12" ios.position="left"
+          ios.systemIcon="12" ios.position="right"
           android.systemIcon="ic_search" android.position="actionBarIfRoom">
         </ActionItem>
         <ActionItem tap="onScan"
           ios.systemIcon="15" ios.position="left"
           text="delete" android.position="actionBarIfRoom">
-        </ActionItem>
-        <ActionItem tap="onCreate"
-          ios.systemIcon="4" ios.position="right"
-          android.systemIcon="btn_plus" android.position="actionBar">
-        </ActionItem>        
+        </ActionItem>     
       </ActionBar>
       <StackLayout>
         <comp_product_list v-on:productlistTapped="goToProductDetail" />
@@ -32,7 +28,7 @@ module.exports = {
   },
   methods: {
     goToProductDetail: function (args) {
-      console.log('Item with index: ' + args.index + ' tapped');
+      console.log('Item with index: ' + args.name + ' tapped');
       this.$navigateTo(page_product_detail);
     },
   },  
