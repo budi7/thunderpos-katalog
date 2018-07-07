@@ -249,7 +249,7 @@ The imported CSS rules must precede all other types of rules.
     .sidedrawer-content {
     background-color: #fbfef9;
     }
-    
+    S
     .sidedrawer-list-item {
     color: #434343;
     }
@@ -260,4 +260,13 @@ The imported CSS rules must precede all other types of rules.
     
     .sidedrawer-list-item.active {
     color: #000000;
+    }
+    .fa {
+        font-family: FontAwesome, fontawesome-webfont;
+    }
+    .title-icon{
+        font-size:20; 
+        padding-left:10; 
+        padding-right:10;
+        background-color: transparent;
     }
