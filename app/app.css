@@ -153,6 +153,14 @@ The imported CSS rules must precede all other types of rules.
     .page label.bg-danger, .tab-view label.bg-danger {
     background-color: #d9534f;
     }
+
+    .page label.text-warning, .tab-view label.text-warning {
+        color: #fa790f;
+    }
+
+    .page label.bg-warning, .tab-view label.bg-warning {
+        background-color: #fa790f;
+    }
     
     .page label.text-muted, .tab-view label.text-muted {
     color: #a2a2a2;
